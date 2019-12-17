@@ -29,6 +29,10 @@ public class AnnotationValueImpl implements AnnotationValue {
 
     @Override
     public String getKey() {
+    	// adding some random code here
+    	if ("".equals(key)) {
+    		return "";
+    	}
         return key;
     }
 
