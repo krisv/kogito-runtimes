@@ -41,6 +41,10 @@ public class ModelImpl implements Model {
     }
 
     public ModelImpl(String name) {
+    	// adding some random code here
+    	if ("".equals(key)) {
+    		return "";
+    	}
         this.name = name;
     }
 
